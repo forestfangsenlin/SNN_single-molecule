@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Using SNN to learn the activities of single molecule
 
-You can use the [editor on GitHub](https://github.com/forestfangsenlin/SNN_single-molecule/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Tools to record the activities of single molecule
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 1.空间钳（Space Clamp）
 
-### Markdown
+<img width="555" alt="clamp" src="https://user-images.githubusercontent.com/37896842/80490906-99663980-8994-11ea-9b4c-7d40c44d5927.png">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+如上图所示，空间钳技术是在细胞膜内，利用电钳的两端夹住膜内两端。由于由于电流从电钳之间通过，由于电钳之间的电阻非常小，电流几乎没有损失，所以膜内两端等电势。这样我们在实际实验的时候，不会造成膜内一侧的电压为-20mV，另一侧为-30mV，可以更好的控制实验变量。
 
-```markdown
-Syntax highlighted code block
+### 2.电压钳（Voltage Clamp）
 
-# Header 1
-## Header 2
-### Header 3
+<img width="411" alt="clamp2" src="https://user-images.githubusercontent.com/37896842/80490915-9bc89380-8994-11ea-81b2-7b1bc41776aa.png">
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/forestfangsenlin/SNN_single-molecule/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+如上图，电压钳与空间钳不同的地方在与，它是作用在膜内和膜外的。它利用电压快速反馈系统来维持膜内外的电势差的稳定。当我们想要观察细胞膜内外的电压差在某个时态的状态时，在没有电压钳的情况下，我们对电势差的观察是被动的。细胞的主动电势怎么变化，我们才能怎样的记录。而拥有了电压钳，我们可以让细胞膜内外维持某个固定电压差，例如40mV，而不会随着时间的变化，电压会变化到50mV或60mV。我们仅仅让细胞膜内外的电势差维持在这个水平，这样我们可以绘制出不同电压，某个特征的变化趋势图，我们就可以分析不同的电压带给细胞膜特征的变化。
