@@ -16,6 +16,6 @@
 
 ## 钳带来的帮助
 
-![clamp3](https://user-images.githubusercontent.com/37896842/80565491-2c4db500-8a23-11ea-84d7-a5333c1deca0.gif)
+![clamp4](https://user-images.githubusercontent.com/37896842/80566116-c8c48700-8a24-11ea-8966-c2b8279e8421.gif)
 
 如上图，我们可以在电流不变的情况下，查看输出电压的变化，因此能记录曲线，找到触发spike的阈值。
